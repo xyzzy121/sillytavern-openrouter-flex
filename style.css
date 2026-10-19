@@ -1,0 +1,20 @@
+/* Appearance comes from SillyTavern's drawer, checkbox, text_pole, and menu_button styles. */
+#openrouter_flex_settings,
+#openrouter_flex_quick,
+#openrouter_flex_settings .flex-endpoint {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+#openrouter_flex_settings small {
+    display: block;
+}
+
+#openrouter_flex_settings [aria-invalid="true"] {
+    border-color: var(--fullred);
+}
+
+#openrouter_flex_settings [hidden],
+#openrouter_flex_quick[hidden] {
+    display: none !important;
+}

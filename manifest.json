@@ -1,0 +1,19 @@
+{
+    "display_name": "OpenRouter Flex",
+    "loading_order": 1000,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "OpenRouter Flex contributors",
+    "homePage": "https://github.com/xyzzy121/sillytavern-openrouter-flex",
+    "version": "1.3.0",
+    "minimum_client_version": "1.19.0",
+    "hooks": {
+        "activate": "onActivate",
+        "enable": "onActivate",
+        "disable": "onDisable",
+        "delete": "onDisable",
+        "clean": "onClean"
+    }
+}
